@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { RESUME_DATA } from '../constants';
-import { Mail, Phone, Linkedin, ArrowUp } from 'lucide-react';
+import { Mail, Phone, Linkedin, ArrowUp, FileText } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -27,6 +27,10 @@ const Footer: React.FC = () => {
           <a href={RESUME_DATA.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-4 px-8 py-4 rounded-full bg-[#1d1d1f] text-white hover:bg-[#007aff] transition-all group w-full lg:w-auto shadow-[0_8px_25px_rgba(29,29,31,0.3)] hover:shadow-[0_12px_35px_rgba(0,122,255,0.4)] hover:scale-105">
             <Linkedin size={20} className="group-hover:scale-110 transition-transform" />
             <span className="text-lg font-bold tracking-tight">LinkedIn</span>
+          </a>
+          <a href="/transcript.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-4 px-8 py-4 rounded-full bg-[#1d1d1f] text-white hover:bg-[#007aff] transition-all group w-full lg:w-auto shadow-[0_8px_25px_rgba(29,29,31,0.3)] hover:shadow-[0_12px_35px_rgba(0,122,255,0.4)] hover:scale-105">
+            <FileText size={20} className="group-hover:scale-110 transition-transform" />
+            <span className="text-lg font-bold tracking-tight">Transcript</span>
           </a>
         </div>
 
