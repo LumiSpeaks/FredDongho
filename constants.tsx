@@ -1,80 +1,138 @@
-
-import React from 'react';
-import { Project, Experience } from './types';
-
 export const RESUME_DATA = {
-  name: "Fred Dongho Tsobjio",
-  phone: "(512)-902-1422",
-  email: "officialfredbiz@gmail.com",
-  // Professional headshot - place your photo at public/images/fred-headshot.jpg
-  headshot: "/images/fred-headshot.jpg", 
-  linkedin: "https://www.linkedin.com/in/freddongho",
-  summary: "Business student with a hands-on, research-driven approach shaped by building and marketing an AI-powered study app designed to help students ace their classes. Strong analytical skills applied to user research, product decisions, and data-informed marketing.",
+  name: 'Fred Dongho Tsobjio',
+  phone: '(512) 902-1422',
+  email: 'fred.dongho.1@gmail.com',
+  website: 'https://freddongho.com',
+  headshot: '/images/fred-headshot.jpg',
+  linkedin: 'https://www.linkedin.com/in/freddongho',
+  acestudyUrl: 'https://acestudy.app/',
+  summary:
+    'Reliable, detail-oriented Business Analytics student with experience in fast-paced environments, cross-functional coordination, and operational support. Resourceful and accountable, with strong organizational skills and a proactive approach to supporting corporate operations.',
   education: {
-    school: "University of Texas At San Antonio",
-    gpa: "3.78",
-    degree: "Bachelors of Business Administration",
-    graduation: "Expected May 2028",
-    honors: ["UTSA Honors College", "Executive Director @ NABA", "UTSA Dean’s List", "NSCS Member"]
+    school: 'University of Texas at San Antonio',
+    location: 'San Antonio, TX',
+    gpa: '3.78',
+    degree: 'Bachelor of Business Administration, Business Analytics',
+    emphasis: 'Product Management',
+    graduation: 'May 2028',
+    honors: [
+      'UTSA Honors College',
+      'Executive Director @ NABA',
+      "UTSA Dean's List (2x)",
+      'National Society of Collegiate Scholars Member',
+    ],
   },
   project: {
-    title: "AceStudy",
-    subtitle: "AI-Powered Study Assistant",
-    platform: "React & AI Technologies",
-    period: "Dec 2025 – June 2026",
+    title: 'AceStudy',
+    subtitle: 'AI learning platform',
+    role: 'Product Management / Operations Analyst',
+    location: 'Pflugerville, TX',
+    platform: 'Firebase, Stripe, real-time sync, AI content pipeline',
+    period: 'Dec 2025 – Present',
     details: [
-      "Designed and researched an AI-powered study assistant grounded in evidence-based learning principles like active recall and focused study blocks.",
-      "Developed 'Brain Boost' feature, combining flashcards and quizzing simultaneously to reinforce understanding.",
-      "Translated research-backed study strategies into product direction and feature positioning.",
-      "Led data-informed marketing across TikTok, Instagram, and Reddit, generating thousands of weekly views."
-    ]
+      'Led product development of an AI learning platform with adaptive flashcards, speed reading, and cognitive games serving hundreds of users.',
+      'Defined SaaS strategy with a freemium model ($0–$400 tiers), rubric-based assessments, and spaced repetition to drive engagement.',
+      'Architected Firebase authentication, Stripe payments, real-time sync, and an AI content pipeline with sub-30s generation and 99%+ uptime.',
+      'Drove marketing campaigns generating tens of thousands of views, converting organic traffic to hundreds of users through A/B testing.',
+    ],
   },
   journey: [
     {
-      company: "National Association of Black Accountants (NABA)",
-      role: "Executive Director",
-      period: "Sept 2025 - Present",
-      type: "Leadership",
+      company: 'AceStudy',
+      role: 'Product Management / Operations Analyst',
+      period: 'Dec 2025 – Present',
+      location: 'Pflugerville, TX',
+      type: 'Product',
       description: [
-        "Primary contact for members, regional leadership, and external partners.",
-        "Oversees programs and initiatives to ensure chapter success.",
-        "Executes strategies aligning with NABA's mission to support professionals."
-      ]
+        'Led product development of an AI learning platform with adaptive flashcards, speed reading, and cognitive games serving hundreds of users.',
+        'Defined SaaS strategy with freemium tiers, rubric-based assessments, and spaced repetition driving user engagement.',
+        'Architected Firebase authentication, Stripe payments, real-time sync, and AI content pipeline with strong uptime and fast generation.',
+        'Drove marketing campaigns generating tens of thousands of views and converting organic traffic through A/B testing.',
+      ],
     },
     {
-      company: "Chipotle",
-      role: "Operations & Culinary Lead",
-      period: "July 2025 – Aug 2025",
-      type: "Experience",
+      company: 'National Association of Black Accountants (NABA)',
+      role: 'Executive Director',
+      period: 'Sept 2025 – Present',
+      location: 'San Antonio, TX',
+      type: 'Leadership',
       description: [
-        "Maintained high standards of operational efficiency and sanitation.",
-        "Collaborated in fast-paced environments to ensure consistent quality."
-      ]
+        'Streamlined program planning and execution with standardized workflows that improved efficiency and on-time delivery of events.',
+        'Established feedback loops with members and stakeholders to refine programming and prevent recurring operational issues.',
+        'Managed competing priorities across initiatives while balancing stakeholder expectations with operational constraints.',
+      ],
     },
     {
-      company: "Voice-Over Business",
-      role: "Founder / Client Relations",
-      period: "Aug 2020 – Feb 2023",
-      type: "Experience",
+      company: 'Pinterest',
+      role: 'Content Strategy & User Research',
+      period: 'July 2025 – Present',
+      location: 'San Antonio, TX',
+      type: 'Experience',
       description: [
-        "Delivered high-quality recordings for 100+ clients with 4.9/5 satisfaction.",
-        "Managed project delivery and client expectations for global campaigns.",
-        "Supported advertising strategies that increased conversion rates."
-      ]
-    }
+        'Analyzed audience engagement and behavioral trends to identify optimization opportunities and implement data-driven content strategies (1M+ views).',
+        'Developed and tested new content formats, evaluated performance metrics, and scaled successful approaches.',
+        'Monitored audience responses and engagement patterns to refine strategy and improve outcomes.',
+      ],
+    },
+    {
+      company: 'Voice Over Business',
+      role: 'Owner / CEO',
+      period: 'Aug 2020 – Feb 2023',
+      location: 'Pflugerville, TX',
+      type: 'Experience',
+      description: [
+        'Streamlined client intake and delivery with organized workflows and a 4.9/5 satisfaction rating across nearly 100 clients.',
+        'Managed end-to-end coordination: scheduling, requirements gathering, and timely delivery under competing priorities.',
+        'Built lasting client relationships through clear communication and responsive service.',
+      ],
+    },
   ],
-  skills: [
-    "Project Management", "Product Strategy", "User Research", 
-    "AI-Driven Feature Design", "Growth & Content Marketing", 
-    "Data-Informed Decision Making", "Cross-Functional Collaboration", 
-    "Excel & Microsoft Office"
-  ]
+  skillGroups: [
+    {
+      name: 'Product Management',
+      items: [
+        'Workflow Optimization',
+        'Root Cause Analysis',
+        'Scalable Systems Design',
+        'Continuous Improvement',
+      ],
+    },
+    {
+      name: 'Product Analytics & Data',
+      items: [
+        'Data-Informed Decision Making',
+        'Quantitative Analysis',
+        'Trend Analysis',
+        'Spreadsheet Modeling',
+        'KPI Definition & Tracking',
+      ],
+    },
+    {
+      name: 'User & Market Insight',
+      items: [
+        'User Research',
+        'Feedback Loop Implementation',
+        'Customer Journey Mapping',
+        'Problem Identification',
+        'Hypothesis Testing',
+      ],
+    },
+    {
+      name: 'Execution & Operations',
+      items: [
+        'Cross-Functional Collaboration',
+        'Stakeholder Alignment',
+        'Project Coordination',
+        'Process Optimization',
+      ],
+    },
+  ],
 };
 
 export const NAV_LINKS = [
-  { name: "About", href: "#about" },
-  { name: "AceStudy", href: "#acestudy" },
-  { name: "Journey", href: "#journey" },
-  { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" }
+  { name: 'About', href: '#about' },
+  { name: 'AceStudy', href: '#acestudy' },
+  { name: 'Journey', href: '#journey' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Contact', href: '#contact' },
 ];
