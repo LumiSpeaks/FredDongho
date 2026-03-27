@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local duplicate / scratch folder (not part of this app)
+freddongho/
