@@ -75,6 +75,28 @@ export const RESUME_DATA = {
       ],
     },
     {
+      company: 'Chipotle',
+      role: 'Crew Member',
+      period: 'July 2025 – Aug 2025',
+      location: 'San Antonio, TX',
+      type: 'Experience',
+      description: [
+        'Operated the grill to cook proteins (chicken, steak, barbacoa, carnitas) while preparing fresh ingredients, maintaining proper seasoning, portion control, and food presentation in line with Chipotle's quality standards and health regulations.',
+        'Maintained a clean, organized, and fully stocked grill station while collaborating with teammates for smooth kitchen operations, efficient service, and strict sanitation, safety, and storage procedures.',
+      ],
+    },
+    {
+      company: 'Sonic',
+      role: 'Crew Member',
+      period: 'June 2023 – Aug 2023',
+      location: 'San Antonio, TX',
+      type: 'Experience',
+      description: [
+        'Prepared and delivered food and beverages quickly and accurately in a high-volume, fast-paced environment while maintaining quality standards.',
+        'Supported a positive customer experience with attentive service, strong multitasking and organization, and work areas that met sanitation and safety requirements.',
+      ],
+    },
+    {
       company: 'Voice Over Business',
       role: 'Owner / CEO',
       period: 'Aug 2020 – Feb 2023',

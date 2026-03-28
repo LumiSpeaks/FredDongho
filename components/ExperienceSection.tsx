@@ -1,12 +1,13 @@
 import React from 'react';
 import { RESUME_DATA } from '../constants';
-import { Briefcase, Users, Mic, Laptop, Pin } from 'lucide-react';
+import { Briefcase, Users, Mic, Laptop, Pin, Utensils } from 'lucide-react';
 
 const ExperienceSection: React.FC = () => {
   const getIcon = (company: string) => {
     if (company.includes('AceStudy')) return <Laptop size={10} />;
     if (company.includes('NABA')) return <Users size={10} />;
     if (company.includes('Pinterest')) return <Pin size={10} />;
+    if (company.includes('Chipotle') || company.includes('Sonic')) return <Utensils size={10} />;
     if (company.includes('Voice')) return <Mic size={10} />;
     return <Briefcase size={10} />;
   };
@@ -24,7 +25,7 @@ const ExperienceSection: React.FC = () => {
         <header className="mb-8 text-left">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tighter mb-2 apple-gradient">Professional History</h2>
           <p className="text-neutral-600 max-w-md font-medium text-sm md:text-base leading-relaxed">
-            Experience across product, leadership, content, and operations.
+            Product, leadership, hospitality, content, and operations experience.
           </p>
         </header>
 
