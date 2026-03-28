@@ -3,12 +3,12 @@ import { RESUME_DATA } from '../constants';
 
 const Hero: React.FC = () => {
   return (
-    <section id="about" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 pt-20 md:pt-0 bg-[#fbfbfd]">
+    <section id="about" className="relative min-h-screen flex flex-col items-stretch justify-center overflow-hidden px-6 sm:px-8 pt-20 md:pt-0 bg-[#fbfbfd]">
       <div className="absolute inset-0 bg-[#fbfbfd] -z-10"></div>
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-blue-500/5 blur-[100px] -z-10 rounded-full"></div>
 
-      <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div className="text-left animate-in fade-in slide-in-from-left-8 duration-1000 order-2 lg:order-1">
+      <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-start lg:items-center">
+        <div className="w-full max-w-none text-left animate-in fade-in slide-in-from-left-8 duration-1000 order-2 lg:order-1">
           <h2 className="text-xs md:text-sm font-bold text-blue-600 mb-4 tracking-[0.2em] uppercase">
             Business Analytics · Product Management · Operations
           </h2>
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
+        <div className="relative order-1 lg:order-2 flex w-full justify-center lg:justify-end animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
           <div className="relative group">
             <div className="absolute -inset-4 bg-blue-500/10 blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-700 -z-10"></div>
 
