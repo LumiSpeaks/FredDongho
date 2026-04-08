@@ -22,10 +22,10 @@ const Hero: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-start lg:items-center gap-6">
             <a
-              href="#acestudy"
+              href="#projects"
               className="px-8 py-4 bg-[#1d1d1f] text-white rounded-full font-bold hover:bg-[#007aff] hover:scale-105 transition-all shadow-[0_10px_30px_rgba(29,29,31,0.3)] text-base relative overflow-hidden group"
             >
-              <span className="relative z-10">Explore AceStudy</span>
+              <span className="relative z-10">View projects</span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#007aff] to-[#0051d5] opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </a>
             <a
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
 
             <div className="absolute -bottom-4 -left-4 md:left-auto md:-right-8 bg-[#1d1d1f] backdrop-blur-2xl border-2 border-[#1d1d1f] px-6 py-4 rounded-[1.5rem] shadow-2xl hidden md:block group/tag hover:scale-105 transition-transform z-20">
               <p className="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-0.5">Based In</p>
-              <p className="text-lg font-bold text-white tracking-tight">Pflugerville, Texas</p>
+              <p className="text-lg font-bold text-white tracking-tight">Austin, Texas</p>
             </div>
           </div>
         </div>
