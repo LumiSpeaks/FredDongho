@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-start lg:items-center">
         <div className="w-full max-w-none text-left animate-in fade-in slide-in-from-left-8 duration-1000 order-2 lg:order-1">
           <h2 className="text-xs md:text-sm font-bold text-blue-600 mb-4 tracking-[0.2em] uppercase">
-            Business Analytics · Product Management · Operations
+            AI product · Cognitive science · Data-driven growth
           </h2>
           <h1 className="text-4xl md:text-6xl xl:text-7xl font-bold apple-gradient mb-6 leading-[1.1] tracking-tighter">
             Fred Dongho

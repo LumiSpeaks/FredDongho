@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   headshot: '/images/fred-headshot.jpg',
   linkedin: 'https://www.linkedin.com/in/freddongho',
   summary:
-    'B.S. Business Analytics student (Product Management emphasis) in Austin, building adaptive training and journaling platforms with Swift, TypeScript, and React. Experienced in product leadership, AI-assisted workflows, and data-informed growth—from founding AceStudy to content strategy at scale.',
+    'AI-focused product management student building consumer tech at the intersection of cognitive science, user psychology, and data-driven growth to unlock human potential.',
   education: {
     school: 'University of Texas at San Antonio',
     location: 'San Antonio, TX',
@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     {
       title: 'AceStudy',
       subtitle: 'AI learning platform',
-      year: 'Dec 2025 – Present',
+      year: 'Dec 2025 to Present',
       liveUrl: 'https://acestudy.app/',
       details: [
         'Led development of an AI learning platform with adaptive flashcards, speed reading, and cognitive tools; defined freemium SaaS strategy and drove growth to hundreds of users through A/B-tested marketing.',
@@ -58,7 +58,7 @@ export const RESUME_DATA = {
     {
       company: 'AceStudy',
       role: 'Founder & Developer',
-      period: 'Dec 2025 – Present',
+      period: 'Dec 2025 to Present',
       location: 'Austin, TX',
       type: 'Product',
       description: [
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
     {
       company: 'National Association of Black Accountants (NABA)',
       role: 'Executive Director',
-      period: 'Sept 2025 – Present',
+      period: 'Sept 2025 to Present',
       location: 'San Antonio, TX',
       type: 'Leadership',
       description: [
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     {
       company: 'Pinterest',
       role: 'Content Strategy & User Research',
-      period: 'July 2025 – Present',
+      period: 'July 2025 to Present',
       location: 'San Antonio, TX',
       type: 'Experience',
       description: [
@@ -89,7 +89,7 @@ export const RESUME_DATA = {
     {
       company: 'Chipotle Mexican Grill',
       role: 'Crew Member',
-      period: 'July 2025 – Aug 2025',
+      period: 'July 2025 to Aug 2025',
       location: 'Manor, TX',
       type: 'Experience',
       description: [
@@ -100,7 +100,7 @@ export const RESUME_DATA = {
     {
       company: 'Sonic Drive-In',
       role: 'Crew Member',
-      period: 'June 2023 – Aug 2023',
+      period: 'June 2023 to Aug 2023',
       location: 'Wake Forest, NC',
       type: 'Experience',
       description: [
@@ -110,7 +110,7 @@ export const RESUME_DATA = {
     {
       company: 'Voice Over Business',
       role: 'Owner / CEO',
-      period: 'Aug 2020 – Feb 2023',
+      period: 'Aug 2020 to Feb 2023',
       location: 'Austin, TX',
       type: 'Experience',
       description: [

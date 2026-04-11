@@ -15,7 +15,7 @@ const ProjectsSection: React.FC = () => {
           Product & engineering work
         </h2>
         <p className="text-neutral-600 text-sm md:text-base mb-10 max-w-2xl">
-          Adaptive training, faith-tech journaling, and an AI learning platform—built with Swift, TypeScript, React, and modern AI tooling.
+          Adaptive training, faith-tech journaling, and an AI learning platform, built with Swift, TypeScript, React, and modern AI tooling.
         </p>
 
         <div className="space-y-14">
